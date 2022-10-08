@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class QuestionsOpenDescriptionByClick {
     private  WebDriver driver;
-//
+
     @Before
     public void setUp() {
         driver = new ChromeDriver();
