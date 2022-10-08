@@ -41,7 +41,7 @@ public class OrderCreationSuccessful {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
-    //Входные данные: два теста с использованием разных кнопок "Заказать" на главной странице
+    //Входные данные: два теста с использованием двух разных кнопок "Заказать" на главной странице
     @Parameterized.Parameters
     public static Object[][] testData() {
         return new Object[][] {
