@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 
 
 public class QuestionsOpenDescriptionByClick {
-    //
     private  WebDriver driver;
 
     @Before

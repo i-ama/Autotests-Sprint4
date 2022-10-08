@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 @RunWith(Parameterized.class)
 public class OrderCreationSuccessful {
-    //
+
     private WebDriver driver;
     private final boolean isOrderCreationSuccessful;
     private final String name;
